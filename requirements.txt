@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-dotenv
+pydantic
+loguru
+python-multipart
+rapidfuzz
+nltk
+email-validator
