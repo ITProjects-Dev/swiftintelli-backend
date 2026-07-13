@@ -11,11 +11,11 @@ from routes.login import router as login_router
 from database import Base, engine
 from models import ChatbotUser
 
-app = FastAPI(docs_url="/docs") 
+app = FastAPI()
 
 # Configure CORS Origins - Allow all origins for local development
 origins = [
-    "https://swiftintelli.com/demo/"
+    "https://swiftintelli.com/"
 ]
 
 # Add the middleware to your FastAPI app instance
