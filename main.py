@@ -17,7 +17,6 @@ app = FastAPI()
 origins = [
     "https://swiftintelli.com",
     "https://www.swiftintelli.com",
-    "https://swiftintelli.com/demo"
 ]
 
 # Add the middleware to your FastAPI app instance
