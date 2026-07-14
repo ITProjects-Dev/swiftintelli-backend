@@ -16,7 +16,8 @@ app = FastAPI()
 # Configure CORS Origins - Allow all origins for local development
 origins = [
     "https://swiftintelli.com",
-    "https://www.swiftintelli.com"
+    "https://www.swiftintelli.com",
+    "https://swiftintelli.com/demo"
 ]
 
 # Add the middleware to your FastAPI app instance
